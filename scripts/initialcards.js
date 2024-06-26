@@ -23,7 +23,20 @@ const initialcards = [
   {
     name: 'Рязань',
     link: 'https://images.unsplash.com/photo-1664277132722-b6340560eda9'
+  },
+  {
+    name: 'Калининград',
+    link: 'https://images.unsplash.com/photo-1621707098150-3c0b7de2c3ef'
+  },
+  {
+    name: 'Павлодар',
+    link: 'https://images.unsplash.com/photo-1598609337414-08ba370fc01a'
+  },
+  {
+    name: 'Алматы',
+    link: 'https://images.unsplash.com/photo-1548450847-8a9a5cc3968f'
   }
+
 ];
 
 export default initialcards;

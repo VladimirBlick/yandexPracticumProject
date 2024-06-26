@@ -1,0 +1,13 @@
+.element__city-like {
+  border: none;
+  width: 23px;
+  height: 19px;
+  padding: 0;
+  background: url("../../../images/like.svg") no-repeat;
+  transition: opacity ease-in-out 0.2s;
+}
+
+.element__city-like:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

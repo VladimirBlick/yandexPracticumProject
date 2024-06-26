@@ -1,0 +1,7 @@
+.element__city {
+  width: 87%;
+  margin: 25px auto 27.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

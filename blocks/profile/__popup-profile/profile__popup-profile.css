@@ -1,0 +1,23 @@
+.profile__popup-profile {
+  min-width: 18px;
+  min-height: 18px;
+  padding: 0;
+  margin: 0 0 0 10px;
+  border: 1px solid #fff;
+  background: url("../../../images/pen.svg") center no-repeat;
+  transition: opacity ease-in-out 0.2s;
+}
+
+.profile__popup-profile:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (min-width:1000px) {
+  .profile__popup-profile {
+    width: 24px;
+    height: 24px;
+    background-size: 10px;
+    margin: 0 0 0 18px;
+  }
+}

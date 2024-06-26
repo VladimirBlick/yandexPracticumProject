@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Mesto</title>
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <img src="./images/header_logo.svg" alt="Логотип" class="header__logo">
+  </header>
+
+  <main>
+    <section class="profile">
+      <img src="./images/avatar.jpg" alt="Аватар" class="profile__avatar">
+      <div class="profile__info">
+        <div class="profile__contain">
+          <h1 class="profile__name">Владимир</h1>
+          <button type="button" class="profile__popup-profile"></button>
+        </div>
+        <p class="profile__job">Исследователь JS</p>
+      </div>
+      <button type="button" class="profile__add-button"></button>
+    </section>
+
+    <section class="elements">
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">© 2020 Mesto Russia</p>
+  </footer>
+
+  <div class="popup popup-profile">
+    <div class="popup-profile__container">
+      <button type="button" class="popup-profile__close-btn"></button>
+      <h2 class="popup-profile__title">Редактировать профиль</h2>
+
+      <form class="popup-profile__form popup__form" name="popupProfileForm" novalidate>
+        <label class="popup__input-element">
+          <input class="popup__input" id="name" placeholder="Имя"
+            required minlength="2" maxlength="40" type="text" name="name">
+          <span class="popup__error popup__error_name"></span>
+        </label>
+
+        <label class="popup__input-element">
+          <input class="popup__input" id="job"
+            placeholder="Деятельность" required minlength="2" maxlength="200" type="text" name="job">
+          <span class="popup__error popup__error_job"></span>
+        </label>
+        <button type="submit" class="popup__button popup-profile__btn">Сохранить</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup-card">
+    <div class="popup-card__container">
+      <button type="button" class="popup-card__close-btn"></button>
+      <h2 class="popup-card__title">Новое место</h2>
+
+      <form class="popup-card__form popup__form" name="popup-card-Form" novalidate>
+        <label class="popup__input-element">
+          <input class="popup__input" id="place" placeholder="Название"
+            required type="text" minlength="2" maxlength="30" name="place">
+          <span class="popup__error popup__error_place"></span>
+        </label>
+
+        <label class="popup__input-element">
+          <input class="popup__input" id="url"
+            placeholder="Ссылка на картинку" required type="url" name="url">
+          <span class="popup__error popup__error_url"></span>
+        </label>
+        <button type="submit" class="popup__button popup-card__btn">Создать</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup-image">
+    <div class="popup-image__form">
+      <img class="popup-image__container" src="#" alt="Фото места">
+      <p class="popup-image__signature"></p>
+      <button type="button" class="popup-image__close-btn"></button>
+    </div>
+  </div>
+
+  <template id="card-template">
+
+    <div class="element">
+      <button type="button" class="element_delete"></button>
+      <img class="element__image">
+      <div class="element__city">
+        <h2 class="element__city-name"></h2>
+        <button type="button" class="element__city-like"></button>
+      </div>
+    </div>
+
+  </template>
+
+
+  <script type="module" src="./scripts/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.popup-card__form {
+  width: 85%;
+  margin: 75px auto 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+@media screen and (min-width:1000px) {
+  .popup-card__form {
+    width: 83%;
+    margin: 50px auto 0;
+  }
+}

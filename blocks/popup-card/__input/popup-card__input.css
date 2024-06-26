@@ -1,0 +1,14 @@
+.popup-card__input{
+  all: unset;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding-bottom: 9px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.popup-card__input:first-of-type{
+  margin-top: 0;
+}

@@ -25,8 +25,8 @@ const initialcards = [
     link: 'https://images.unsplash.com/photo-1664277132722-b6340560eda9'
   },
   {
-    name: 'Калининград',
-    link: 'https://images.unsplash.com/photo-1621707098150-3c0b7de2c3ef'
+    name: 'Астана',
+    link: 'https://images.unsplash.com/photo-1609779310112-1a33977274d7'
   },
   {
     name: 'Павлодар',
